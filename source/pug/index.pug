@@ -1,0 +1,182 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="css/style.css")
+        script(defer, src="js/scripts.min.js")
+        title Technlgy
+    body
+        header.header
+            .container.header__container 
+                .header__logo 
+                    img.header__logo-image(src="images/logo.svg", alt="logo")
+                nav.header__nav
+                    ul.header__list 
+                        li.header__list-item 
+                            a.header__link(href="#hero") Home
+                        li.header__list-item 
+                            a.header__link(href="#about") About Us
+                        li.header__list-item 
+                            a.header__link(href="#unique-experiences") Service
+                        li.header__list-item 
+                            a.header__link(href="#support") Support
+                        li.header__list-item 
+                            a.header__link(href="#footer") Contact
+        section.hero#hero
+            .container.hero__container 
+                .hero__content.hero__content--initial
+                    h2.hero__heading Innovation that drives emotion
+                    p.hero__text The next level
+                .hero__features-box.features-box 
+                    .features-box__item.features-box__item--initial
+                        .features-box__image-box.features-box__image-box--layout 
+                            img.features__image(src="images/features-layout.svg", alt="")
+                        .features-box__title Countless Layout 
+                    .features-box__item.features-box__item--initial
+                        .features-box__image-box.features-box__image-box--customize 
+                            img.features__image(src="images/features-customize.svg", alt="")
+                        .features-box__title Easy to customize
+                    .features-box__item.features-box__item--initial
+                        .features-box__image-box.features-box__image-box--live 
+                            img.features__image(src="images/features-live.svg", alt="")
+                        .features-box__title Live customizer
+                    .features-box__item.features-box__item--initial
+                        .features-box__image-box.features-box__image-box--responsive 
+                            img.features__image(src="images/features-responsive.svg", alt="")
+                        .features-box__title Fully responsive
+        section.about#about
+            .container
+                .info
+                    .info__image-box.info__image-box--padded.--initial
+                        img.info__image(src="images/about-image.png", alt="about")
+                    .info__content.--initial 
+                        h2.info__heading About us 
+                        p.info__subheading Technology 
+                        p.info__text Nulla placerat mi vitae mauris varius consequat. Aliquam libero ante, consectetur at turpis sit amet, congue Suspendisse porta bibendum scelerisque.
+                        p.info__text Suspendisse porta bibendum scelerisque. Nulla placerat
+                        a.info__link(href="#")  Learn more
+                .graph.--initial
+                    .graph__info 
+                        .graph__title We work with big and small companies
+                        .graph__text Nulla placerat mi vitae mauris varius consequat. Aliquam libero ante, consectetur at turpis sit amet, congue Suspendisse porta bibendum scelerisque.
+                        .graph__text Suspendisse porta bibendum scelerisque. Nulla placerat
+                    .graph__bars 
+                        .bar 
+                            .bar__text
+                                .bar__title App development 
+                                .bar__percent 92%
+                            .bar__line.bar__line--app
+                                .bar__line--inner
+                        .bar 
+                            .bar__text
+                                .bar__title User Interface 
+                                .bar__percent 88%
+                            .bar__line.bar__line--ui
+                                .bar__line--inner
+                        .bar 
+                            .bar__text
+                                .bar__title User experiences
+                                .bar__percent 95%
+                            .bar__line.bar__line--ux
+                                .bar__line--inner
+                        .bar 
+                            .bar__text
+                                .bar__title Information architecture 
+                                .bar__percent 50%
+                            .bar__line.bar__line--arch
+                                .bar__line--inner
+        section.unique-experiences#unique-experiences
+            .unique-experiences__greets
+                .container 
+                    .unique-experiences__animbox.--initial
+                        h2.unique-experiences__title unique experiences
+                        p.unique-experiences__text The next level
+            .container 
+                .info.info--reverse
+                    .info__image-box.step5-image.--initial
+                        img.info__image(src="images/photo.jpg", alt="user")
+                    .info__content.step5-text.--initial
+                        h2.info__heading Be unique
+                        p.info__subheading people really matter
+                        p.info__text Nulla placerat mi vitae mauris varius consequat. Aliquam libero ante, consectetur at turpis sit amet, congue Suspendisse porta bibendum scelerisque.
+                        p.info__text Suspendisse porta bibendum scelerisque. Nulla placerat
+                        a.info__link(href="#")  Learn more
+                .info
+                    .info__image-box.step6-image.--initial
+                        img.info__image(src="images/phones.png", alt="about")
+                    .info__content.step6-text.--initial
+                        h2.info__heading Products
+                        p.info__subheading latest features
+                        p.info__text Nulla placerat mi vitae mauris varius consequat. Aliquam libero ante, consectetur at turpis sit amet, congue Suspendisse porta bibendum scelerisque.
+                        p.info__text Suspendisse porta bibendum scelerisque. Nulla placerat
+                        a.info__link(href="#")  Learn more
+                .unique-experiences__logos 
+                    img(src="images/adobe.png", alt="Adobe")
+                    img(src="images/wp.png", alt="Wordpress")
+                    img(src="images/jquery.png", alt="jQuery")
+                    img(src="images/envato.png", alt="Envato")
+                .unique-experiences__features.ue-features 
+                    .ue-features__item.ue-features__item--ei.--initial
+                        img.ue-features__image(src="images/ei.png", alt="")
+                        .ue-features__title Easy import
+                        .ue-features__text Nulla placerat mi vitae mauris varius . Aliquam libero ante, consectetur at.
+                    .ue-features__item.ue-features__item--sl.--initial
+                        img.ue-features__image(src="images/sl.png", alt="")
+                        .ue-features__title Stunning layouts
+                        .ue-features__text Nulla placerat mi vitae mauris varius . Aliquam libero ante, consectetur at.
+                    .ue-features__item.ue-features__item--nc.--initial
+                        img.ue-features__image(src="images/nc.png", alt="")
+                        .ue-features__title No coding
+                        .ue-features__text Nulla placerat mi vitae mauris varius . Aliquam libero ante, consectetur at.
+
+        section.support#support
+            .container.support__container                 
+                h2.support__title Support
+                p.support__subheading Get in touch
+                form.support__form.sp-form
+                    .sp-form__row 
+                        input.sp-form__input(type="text", placeholder="Name") 
+                        input.sp-form__input(type="text", placeholder="Email") 
+                        input.sp-form__input(type="text", placeholder="Phone") 
+                    .sp-form__row 
+                        textarea.sp-form__ta(name="", rows="1", placeholder="Message")
+                    button.sp-form__submit-btn Send
+        footer.footer#footer
+            .container.footer__container 
+                .footer__links-box
+                    ul.footer__links-list.footer__links-list--tel.--initial
+                        li.footer__item 
+                            a.footer__link(href="#") 1-677-124-44225
+                        li.footer__item 
+                            a.footer__link(href="#") 1-677-124-44225
+                        li.footer__item 
+                            a.footer__link(href="#") 1-677-124-44225
+                    ul.footer__links-list.footer__links-list--mail.--initial 
+                        li.footer__item 
+                            a.footer__link(href="#") office@bridge.com
+                        li.footer__item 
+                            a.footer__link(href="#") service@bridge.com
+                        li.footer__item 
+                            a.footer__link(href="#") shop@bridge.com
+                    .footer__address-box.--initial
+                        | New York <br>
+                        | Bridgestone side 130 <br>
+                        | NY
+                .footer__bottom 
+                    nav.footer__nav
+                        ul.footer__nav-list 
+                            li.footer__list-item 
+                                a.footer__link(href="#hero") Home
+                            li.footer__list-item 
+                                a.footer__link(href="#") About Us
+                            li.footer__list-item 
+                                a.footer__link(href="#") Service
+                            li.footer__list-item 
+                                a.footer__link(href="#") Products
+                            li.footer__list-item 
+                                a.footer__link(href="#") People
+                            li.footer__list-item 
+                                a.footer__link(href="#") Contact
+

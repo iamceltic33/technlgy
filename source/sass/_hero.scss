@@ -1,0 +1,34 @@
+.hero {
+    height: 690px;
+    background-color: #070A0F;
+    background-image: url('../images/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    background-position: center -100px;
+    color: #fff;
+    padding-top: 168px;
+    margin-bottom: 285px;
+    &__heading {
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 80px;
+        line-height: 95px;
+        text-transform: uppercase;
+        max-width: 515px;        
+    }
+    &__text {
+        font-family: 'Abel';
+        text-transform: uppercase;        
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 22px;
+        color: #868686;
+    }
+    &__content {
+        transform: translateX(0px);
+        transition: transform 1s;
+        &--initial {
+            transform: translateX(-1500px);
+        }
+    }
+}

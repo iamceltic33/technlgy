@@ -1,0 +1,51 @@
+.sp-form {
+    &__row {
+        display: flex;
+        margin-bottom: 28px;
+    }
+
+    &__input {
+        display: block;
+        flex-grow: 1;
+        margin-right: 90px;
+        font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        padding-left: 10px;
+        padding-bottom: 7px;
+        border-bottom: 2px solid #fff;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__ta {
+        display: block;
+        flex-grow: 1;
+        font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        padding-left: 10px;
+        padding-bottom: 7px;
+        border: none;
+        border-bottom: 2px solid #fff;
+        background-color: transparent;        
+        resize: none;
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__submit-btn {
+        width: 130px;
+        height: 39px;        
+        line-height: 39px;
+        text-align: center;
+        background: #076CF0;
+        color: #FFFFFF;
+        border-radius: 50px;
+    }
+}

@@ -1,0 +1,47 @@
+.graph {
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(0px);
+    transition: transform 1s;
+    &.--initial {
+        transform: translateX(-1600px);
+    }
+
+    &__info {
+        width: 50%;
+        padding-left: 35px;
+    }
+
+    &__bars {
+        width: 50%;
+    }
+
+    &__title {
+        font-family: 'Rubik';        
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 47px;
+        text-transform: uppercase;
+        margin-bottom: 26px;
+        position: relative;
+        &::after {
+            content: '';
+            display: block;
+            height: 84px;
+            width: 5px;
+            background-color: #076cf0;
+            position: absolute;
+            left: -35px;
+            top: 0;
+        }
+    }
+    &__text {
+        margin-bottom: 26px;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #868686;
+        padding-right: 160px;
+    }
+}

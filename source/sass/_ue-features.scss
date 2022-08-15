@@ -1,0 +1,51 @@
+.ue-features {
+    display: flex;
+    justify-content: space-between;
+
+    &__item {
+        width: 330px;
+        height: 305px;
+        padding-top: 50px;
+        text-align: center;
+        background: #FFFFFF;
+        border-radius: 10px;
+        transform: translateY(65px);
+        transition: 0.6s transform;
+        &--ei {
+            box-shadow: 0px 20px 60px rgba(64, 145, 251, 0.8);
+        }
+        &--sl {
+            box-shadow: 0px 20px 60px rgba(127, 231, 198, 0.8);
+        }
+        &--nc {
+            box-shadow: 0px 20px 60px rgba(223, 140, 196, 0.8);
+        }
+        &.--initial {
+            transform: translateY(625px);
+        }
+    }
+
+    &__image {
+        width: 78px;
+        height: 78px;
+        margin-bottom: 50px;
+    }
+
+    &__title {
+        font-family: 'Abel';        
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 40px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        font-family: 'Rubik';        
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #868686;
+    }
+}

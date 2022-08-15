@@ -1,0 +1,63 @@
+.unique-experiences {
+    &__greets {
+        height: 570px;
+        background-image: url('../images/unique-experience.png');
+        background-size: 1920px;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 154px;
+        margin: 130px auto;
+    }
+
+    &__title {
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 80px;
+        line-height: 105px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 210px;
+        margin-bottom: 30px;
+    }
+
+    &__text {
+        font-family: 'Abel';
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 22px;
+        color: #868686;
+    }
+
+    &__logos {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 65px;
+    }
+
+    &__animbox {
+        transform: translateX(0px);
+        transition: transform 1s;
+
+        &.--initial {
+            transform: translateX(-1600px);
+        }
+    }
+}
+
+.step5-image {
+    transform: translateX(0x);
+    transition: transform 1s;
+
+    &.--initial {
+        transform: translateX(1600px);
+    }
+}
+
+.step5-text {
+    transform: translateX(0x);
+    transition: transform 1s;
+
+    &.--initial {
+        transform: translateX(-1600px);
+    }
+}

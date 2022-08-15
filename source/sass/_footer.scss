@@ -1,0 +1,50 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+    &__links-box {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+        .--initial {
+            transform: translateY(200px);
+        }
+        &>*{
+            transform: translateY(0px);
+            transition: transform 0.8s;
+        }
+    }
+    &__links-list {
+        padding-left: 60px;
+        position: relative;
+        &::before {            
+            position: absolute;
+            top: 8px;
+            left: 0;
+            display: block;
+        }
+        &--tel::before {
+            content: url('../images/phone-icon.png');
+        }
+        &--mail:before {
+            content: url('../images/mail-icon.png');
+        }        
+    }
+    &__address-box {
+        position: relative;
+        padding-left: 60px;
+        &::before {            
+            position: absolute;
+            top: 8px;
+            left: 0;
+            display: block;
+            content: url('../images/person-icon.png');
+        }        
+    }
+    &__nav-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+    }
+}

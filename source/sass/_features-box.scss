@@ -1,0 +1,49 @@
+.features-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 116px;
+    &__item {
+        transform: translateY(0px);
+        transition: transform 1s;
+        &--initial {
+            transform: translateY(1500px);
+        }
+    }
+    &__image-box {
+        padding: 45px 86px;
+        box-shadow: 0px 15px 60px;
+        border-radius: 10px;
+        background-color: #fff;
+        margin-bottom: 20px;
+        
+        &--layout {
+            color: #4091FB;
+        }
+
+        &--customize {
+            color: #7FE7C6;
+        }
+
+        &--live {
+            color: #DF8CC4;
+        }
+
+        &--responsive {
+            color: #F4A382;
+        }        
+    }
+
+    &__image {
+        width: 78px;
+        height: 78px;
+    }
+
+    &__title {
+        font-family: 'Abel';        
+        font-size: 25px;
+        line-height: 32px;
+        color: #000000;
+        text-align: center;
+    }
+}

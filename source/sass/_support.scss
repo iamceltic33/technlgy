@@ -1,0 +1,37 @@
+.support {
+    background-color: #000;
+    padding-top: 177px;
+    padding-bottom: 50px;
+    &__title {
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 71px;
+        color: #FFFFFF;
+        padding-left: 50px;
+        text-transform: uppercase;
+        position: relative;        
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 5px;
+            height: 43px;
+            background-color: #076CF0;
+            left: 0;
+            top: 13px;
+        }
+    }
+    
+    &__subheading {
+        font-family: 'Abel';
+        font-style: normal;
+        font-size: 20px;
+        line-height: 25px;        
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #076CF0;
+        padding-left: 50px;
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,40 @@
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+#about .info__image-box {
+    transition: transform 1s;
+    transform: translateX(0px);
+    &.--initial {
+        transform: translateX(-1500px);
+    }
+}
+
+#about .info__content {
+    transition: transform 0.8s;
+    transform: translateY(0px);
+    &.--initial {
+        transform: translateY(1500px);
+    }
+}
+
+.step6-image {
+    transform: translateX(0px);
+    transition: transform 1s;
+    &.--initial {
+        transform: translateX(594px);
+    }
+}
+
+.step6-text {
+    transform: translateY(0px);
+    transition: transform 1s;
+    &.--initial {
+        transform: translateY(594px);
+    }
+}

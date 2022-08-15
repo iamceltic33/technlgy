@@ -1,0 +1,45 @@
+.bar {
+    &__text {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Abel';        
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    &__line {
+        height: 5px;
+        width: 100%;
+        background-color: #F1F4F8;
+        margin-bottom: 38px;
+        &--inner {
+            height: 100%;
+        }
+        &--app {
+            .bar__line--inner {
+                background-color: #F2662F;
+                width: 92%;
+            }
+        }
+        &--ui {
+            .bar__line--inner {
+                background-color: #FA2B7E;
+                width: 88%;
+            }
+        }
+        &--ux {
+            .bar__line--inner {
+                background-color: #23DDAC;
+                width: 95%;
+            }
+        }
+        &--arch {
+            .bar__line--inner {
+                background-color: #076CF0;
+                width: 50%;
+            }
+        }
+    }
+}
